@@ -1,0 +1,42 @@
+
+@font-face {
+    font-family: "FuturaBQ-LightOblique";   /*Can be any text*/
+    src: local("AirbnbCerealLight"),
+      url("./FuturaBQ-LightOblique.otf") format("opentype");
+  }
+
+#about {
+
+    background: #e0e6ff;
+    height: 31rem;
+}.About_main {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 42rem;
+    margin: 1px 15rem;
+    position: relative;
+    top: 77px;
+}
+.abt1 {
+    font-family: "PlayfairDisplay" !important;
+    font-size: 37px;
+    font-weight: 500;
+    text-align: left;
+    letter-spacing: 3px;
+    font-style: italic;
+    width: 29rem;
+    color: #224e6f;
+}.abt2 {
+    color: #224e6f;
+    font-family: "FuturaBQ-LightOblique" !important;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.abt3 {
+    line-height: 47px;
+    width: 58rem;
+    font-size: 24px;
+    color: #474a5c;
+    font-family: "FuturaBQ-LightOblique" !important;
+}

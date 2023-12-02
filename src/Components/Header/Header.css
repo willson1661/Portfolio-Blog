@@ -1,0 +1,52 @@
+/* //header */
+
+.navbar {
+    width: 100%;
+    background: #224e6f;
+    height: 6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 9rem;
+}
+
+.Logo {
+    width: 8rem;
+    display: flex;
+    /* margin-left: 2px; */
+}
+
+
+ul {
+    display: flex;
+    gap: 55px;
+    color: #fff;
+    font-size: 15px;
+    font-style: italic;
+}
+
+
+li{
+    list-style-type: none;
+    cursor: pointer;
+}
+
+li::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s;
+}
+
+li:hover::after {
+    width: 100%;
+  
+}
+
+
+.Logo img {
+    width: 7rem;
+    margin-left: 2rem;
+}

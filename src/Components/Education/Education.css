@@ -1,0 +1,90 @@
+
+.edu_exp_main {
+    display: flex;
+    max-width: 1023px;
+    margin-left: 15rem;
+    height: 49rem;
+    margin-top: 3rem;
+    gap: 6rem;
+    color: #fff;
+}
+
+.edu {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 587px;
+    gap: 19px;
+}.edu1 {
+    font-family: "PlayfairDisplay" !important;
+    font-size: 37px;
+    font-weight: 500;
+    text-align: left;
+    letter-spacing: 3px;
+    font-style: italic;
+}.edu2 {
+    font-family: "FuturaBQ-LightOblique" !important;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 21px;
+}
+
+
+.edu3 {
+    font-family: "FuturaBQ-LightOblique" !important;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 3px;
+    display: flex;
+    flex-direction: column;
+    height: 11rem;
+}
+    .edu3 span {
+        border-bottom: 2px solid #fff;
+        width: 14.5rem;
+        opacity: 100%;
+        z-index: 100;
+    }
+
+    .exp {
+        display: flex;
+        flex-direction: column;
+        max-width: 600px;
+        width: 587px;
+        gap: 19px;
+    
+    }
+    
+    .exp1 {
+        font-family: "PlayfairDisplay" !important;
+        font-size: 37px;
+        font-weight: 500;
+        text-align: left;
+        letter-spacing: 3px;
+        font-style: italic;
+      
+    }
+    
+    .exp2 {
+        font-family: "FuturaBQ-LightOblique" !important;
+        font-weight: 500;
+        letter-spacing: 2px;
+        font-size: 21px;
+    }
+
+    .exp3 {
+        font-family: "FuturaBQ-LightOblique" !important;
+        font-weight: 300;
+        line-height: 36px;
+        letter-spacing: 3px;
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+    }
+
+    .exp3 span {
+        border-bottom: 2px solid #fff;
+        width: 12.5rem;
+        opacity: 100%;
+        z-index: 100;
+    }
