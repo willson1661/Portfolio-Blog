@@ -18,18 +18,19 @@ const breakPoints = [
   
   { width: 1200, itemsToShow: 4 },
 ];
-
+// eslint-disable-next-line
 const Projects =()=>{
   return (
     <>
+    
      <div className="Projects" id="projects" >
   <p className="pjct1">React Js Projects</p>
       <div className="App">
         <Carousel breakPoints={breakPoints}>
-        <Item><p className="pjct2"><a href="https://to-do-app-with-image-upload-firebase-storage.vercel.app/" target="_blank"><div className = "container">
+        <Item><p className="pjct2"><a href="https://to-do-app-with-image-upload-firebase-storage.vercel.app/" rel="noopener noreferrer" target="_blank"><div className = "container">
     <div className = "card">
       <div className = "image">
-        <img href = "#" src={img1}/>
+        <img href = "#" src={img1} alt="imga"/>
       </div>
       <div className = "content">
         <h3 className="ref22">To Do App with Image Upload & Firebase Storage </h3>
@@ -39,10 +40,10 @@ const Projects =()=>{
   </div> </a></p></Item>
 
 
-          <Item> <p className="pjct3"><a href="https://7jw8yy.csb.app/" target="_blank"><div className = "container">
+          <Item> <p className="pjct3"><a href="https://7jw8yy.csb.app/" rel="noopener noreferrer"  target="_blank"><div className = "container">
     <div className = "card">
       <div className = "image">
-        <img href = "#" src={img2}/>
+        <img href = "#" src={img2} alt="imgb"/>
       </div>
       <div className = "content">
       <h3 className="ref22">Calculator</h3>
@@ -51,10 +52,10 @@ const Projects =()=>{
   </div></a></p></Item>
 
 
-          <Item><p className="pjct4"><a href="https://foodie-website-8niq0dzcl-willson1661s-projects.vercel.app/" target="_blank"><div className = "container">
+          <Item><p className="pjct4"><a href="https://foodie-website-8niq0dzcl-willson1661s-projects.vercel.app/" rel="noopener noreferrer"  target="_blank"><div className = "container">
     <div className = "card">
       <div className = "image">
-        <img href = "#" src={img3}/>
+        <img href = "#" src={img3} alt="imgc"/>
       </div>
       <div className = "content">
       <h3 className="ref22">Foodie Blog</h3>
@@ -64,10 +65,10 @@ const Projects =()=>{
 
 
 
-          <Item> <p className="pjct5"><a href="https://56yzmp.csb.app/" target="_blank"><div className = "container">
+          <Item> <p className="pjct5"><a href="https://56yzmp.csb.app/" rel="noopener noreferrer" target="_blank"><div className = "container">
     <div className = "card">
       <div className = "image">
-        <img href = "#" src={img4}/>
+        <img href = "#" src={img4} alt="imgd"/>
       </div>
       <div className = "content">
       <h3 className="ref22">Simple Weather App API Using Axios </h3>
@@ -77,10 +78,10 @@ const Projects =()=>{
 
 
 
-          <Item><p className="pjct6"><a href="https://3qlvsc.csb.app/" target="_blank"><div className = "container">
+          <Item><p className="pjct6"><a href="https://3qlvsc.csb.app/" rel="noopener noreferrer" target="_blank"><div className = "container">
     <div className = "card">
       <div className = "image">
-        <img href = "#" src={img5}/>
+        <img href = "#" src={img5} alt="imge"/>
       </div>
       <div className = "content">
       <h3 className="ref22">Food Website Using Fetch API with Search  </h3>
@@ -90,10 +91,10 @@ const Projects =()=>{
 
 
 
-          <Item> <p className="pjct7"><a href="https://59g45z.csb.app/Signup" target="_blank"><div className = "container">
+          <Item> <p className="pjct7"><a href="https://59g45z.csb.app/Signup" rel="noopener noreferrer"  target="_blank"><div className = "container">
     <div className = "card">
       <div className = "image">
-        <img href = "#" src={img6}/>
+        <img href = "#" src={img6} alt="imgf"/>
       </div>
       <div className = "content">
       <h3 className="ref22">Sign-up & Login-form with Show/Hide Password, Using Routers </h3>
@@ -103,10 +104,10 @@ const Projects =()=>{
 
 
 
-          <Item>  <p className="pjct8"><a href="https://x5t4cf.csb.app/" target="_blank"><div className = "container">
+          <Item>  <p className="pjct8"><a href="https://x5t4cf.csb.app/" rel="noopener noreferrer"   target="_blank"><div className = "container">
     <div className = "card">
       <div className = "image">
-        <img href = "#" src={img7}/>
+        <img href = "#" src={img7} alt="imgg"/>
       </div>
       <div className = "content">
       <h3 className="ref22">Food Website with Cart using Routers & Bootstrap</h3>
@@ -115,10 +116,10 @@ const Projects =()=>{
   </div></a></p></Item>
 
 
-          <Item><p className="pjct9"><a href="https://portfolio-blog-two-orpin.vercel.app/" target="_blank"><div className = "container">
+          <Item><p className="pjct9"><a href="https://portfolio-blog-two-orpin.vercel.app/" rel="noopener noreferrer"   target="_blank"><div className = "container">
     <div className = "card">
       <div className = "image">
-        <img href = "#" src={img8}/>
+        <img href = "#" src={img8} alt="imgh"/>
       </div>
       <div className = "content">
       <h3 className="ref22">Simple Portfolio Blog</h3>
