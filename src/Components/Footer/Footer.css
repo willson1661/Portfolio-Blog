@@ -1,0 +1,145 @@
+.Footer {
+    height: 26rem;
+    background: #f6f8fc !important;
+}
+
+
+    .rft1 {
+        height: 100px !important;
+        margin-left: -41px !important;
+    }
+
+
+
+.Footer_main {
+    display: grid;
+    position: relative;
+    /* left: 14rem; */
+    top: 4rem;
+    gap: 13rem;
+    /* max-width: 890px; */
+    height: 17rem;
+    grid-template-columns: 21vw 23Vw;
+    place-content: center;
+    align-items: baseline;
+}
+.reg1 {
+    font-family: "PlayfairDisplay" !important;
+    font-size: 37px;
+    font-weight: 500;
+    text-align: left;
+    letter-spacing: 3px;
+    font-style: italic;
+    width: 23rem;
+    color: #224e6f;
+    height: 134px;
+}
+.contact1 {
+    display: grid;
+    flex-direction: column;
+    gap: 17px;
+    margin-top: 27px;
+    height: 15rem;
+    color: #224e6f;
+}
+.rt1{
+
+    font-weight: 500;
+    text-align: start;
+    font-family: "FuturaBQ-LightOblique" !important;
+    letter-spacing: 2px;
+    line-height: 25px;
+    font-size: clamp(21px, 1.5vw, 10rem);
+}
+
+
+.resumebtn1 {
+    color: #fff;
+    background: #224e6f;
+    border: 1px solid #fff;
+    width: 12rem;
+    height: 3rem;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "FuturaBQ-LightOblique" !important;
+    letter-spacing: 1px;
+    margin-top: 60px;
+}
+.resumebtn1::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s;
+    margin: 1px 21px;
+}
+
+.resumebtn1:hover::after {
+    width: 149px;
+    margin: 1px 21px;
+}
+
+@media (max-width:1000px){
+   .rt1 {
+    
+        width: 330px;
+    }
+    .Footer_main {
+      gap: 11rem;
+        left: -63px;
+    }
+}
+
+@media (max-width:800px){
+  
+    .Footer_main {
+        grid-template-columns: repeat(1, auto);
+        top: 134px;
+        left: 154px;
+        gap: 1rem;
+        width: 375px;
+    }
+    .Footer {
+        height: 39rem;
+  
+    }
+}
+@media (max-width:600px){
+
+.reg1 {
+width: 20rem;;
+    font-size: 30px;
+    
+}
+.rt1 {
+    
+    width: 311px;
+}
+
+
+
+.Footer_main {
+    grid-template-columns: repeat(1, auto);
+    top: 134px;
+    left: 49px;
+    gap: 1rem;
+    width: 244px;
+}
+
+.reg1 {
+    width: 246px;
+    font-size: 29px;
+}
+
+
+.contact1 {
+    display: grid;
+    flex-direction: column;
+    gap: 17px;
+    margin-top: 27px;
+    height: 15rem;
+    color: #224e6f;
+}
+}
