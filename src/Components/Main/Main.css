@@ -155,6 +155,7 @@ a {
     line-height: 1.03em;
     font-style: italic;
     padding: 3px 6px;
+    overflow: hidden;
 }
   .deconstructed > div {
     position: absolute;
