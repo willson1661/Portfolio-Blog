@@ -20,6 +20,7 @@ const Projects =()=>{
   const [activeSlide, setActiveSlide] = useState(1);
   return (
     <div className="Projects" id="projects" >
+        <p className="pjct1">React Js Projects</p>
       <Carousel
         containerProps={{
           style: {
