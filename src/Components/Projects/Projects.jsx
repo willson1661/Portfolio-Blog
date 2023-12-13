@@ -173,7 +173,7 @@ const Projects =()=>{
   </div></a></p></Item>
 
 
-          <Item><p className="pjct9"><a href="https://portfolio-blog-two-orpin.vercel.app/" rel="noopener noreferrer"   target="_blank"><div className = "container">
+          <Item><p className="pjct9"><a href="https://portfolio-blog-gamma-blue.vercel.app/" rel="noopener noreferrer"   target="_blank"><div className = "container">
     <div className = "card">
       <div className = "image">
         <img href = "#" src={img8} alt="imgh"/>
