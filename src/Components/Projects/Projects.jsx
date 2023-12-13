@@ -10,7 +10,7 @@ import img5 from "./Images/food_src.png"
 import img6 from "./Images/login_form.png"
 import img7 from "./Images/food_cart.png"
 import img8 from "./Images/porfolio.png"
-
+import img9 from "./Images/Music_player.png"
 import Item from "./Item";
 import "./Project.css"
 
@@ -156,6 +156,18 @@ const Projects =()=>{
       </div>
       <div className = "content">
       <h3 className="ref22">Food Website with Cart using Routers & Bootstrap</h3>
+      </div>
+    </div>    
+  </div></a></p></Item>
+
+  <Item><p className="pjct9"><a href="https://music-player-9qwyi7taq-willson1661s-projects.vercel.app/" rel="noopener noreferrer"   target="_blank"><div className = "container">
+    <div className = "card">
+      <div className = "image">
+        <img href = "#" src={img9} alt="imgh"/>
+      </div>
+      <div className = "content">
+      <h3 className="ref22">Music Player With Playlist</h3>
+        
       </div>
     </div>    
   </div></a></p></Item>
