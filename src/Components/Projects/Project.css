@@ -195,18 +195,17 @@
         max-width: 1483px !important;
     }
     
+        #projects>div>div {
+          width: 81% !important;
+          display: flex !important;
+          box-sizing: border-box !important;
+          flex-flow: wrap !important;
+          padding: 0px !important;
+          overflow: hidden !important;
+          max-width: 1227px !important;
+        }
     
-    
-    #projects > div > div{
-    width: 100% !important;
-        display: flex !important;
-        box-sizing: border-box !important;
-        flex-flow: wrap !important;
-        padding: 0px !important;
-        overflow: hidden !important;
-        max-width: 1227px !important;
-    }
-    
+  
     
     #projects > div > div > div{
       gap: 53px !important;
@@ -257,6 +256,15 @@ background: none !important;
       outline: none;
       cursor: pointer;
     }
+@media (max-width: 1400px) {
+#projects>div{
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+}
+
+
   @media (max-width: 600px) {
     .sc-gsTDqH {
       width: 300.797px !important ;
