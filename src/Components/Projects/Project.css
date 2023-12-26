@@ -256,6 +256,13 @@ background: none !important;
       outline: none;
       cursor: pointer;
     }
+
+        .lhsCpl {
+          
+          background-color:none !important;
+          background: transparent !important;
+        
+        }
 @media (max-width: 1400px) {
 #projects>div{
   display: flex !important;
