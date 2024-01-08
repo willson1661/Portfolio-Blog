@@ -64,7 +64,7 @@ const Projects = () => {
         centerMode
       >
         <Item>
-          <p style={{ background: "none" }} className="pjct2">
+          <p style={{ backgroundColor: "#224e6f" }} className="pjct2">
             <a
               href="https://to-do-app-with-image-upload-firebase-storage.vercel.app/"
               rel="noopener noreferrer"
@@ -88,7 +88,7 @@ const Projects = () => {
 
         <Item>
           {" "}
-          <p style={{ background: "none" }} className="pjct3">
+          <p style={{ backgroundColor: "#224e6f" }} className="pjct3">
             <a
               href="https://simple-calculator-azure.vercel.app/"
               rel="noopener noreferrer"
@@ -109,7 +109,7 @@ const Projects = () => {
         </Item>
 
         <Item>
-          <p style={{ background: "none" }} className="pjct4">
+          <p style={{ backgroundColor: "#224e6f" }} className="pjct4">
             <a
               href="https://foodie-website-8niq0dzcl-willson1661s-projects.vercel.app/"
               rel="noopener noreferrer"
@@ -131,7 +131,7 @@ const Projects = () => {
 
         <Item>
           {" "}
-          <p style={{ background: "none" }} className="pjct5">
+          <p style={{ backgroundColor: "#224e6f" }} className="pjct5">
             <a
               href="https://weather-app-eta-lime.vercel.app/"
               rel="noopener noreferrer"
@@ -154,7 +154,7 @@ const Projects = () => {
         </Item>
 
         <Item>
-          <p style={{ background: "none" }} className="pjct6">
+          <p style={{ backgroundColor: "#224e6f" }} className="pjct6">
             <a
               href="https://food-website-with-search-api.vercel.app/"
               rel="noopener noreferrer"
@@ -178,7 +178,7 @@ const Projects = () => {
 
         <Item>
           {" "}
-          <p style={{ background: "none" }} className="pjct7">
+          <p style={{ backgroundColor: "#224e6f" }} className="pjct7">
             <a
               href="https://simple-login-form-eight.vercel.app/"
               rel="noopener noreferrer"
@@ -203,7 +203,7 @@ const Projects = () => {
 
         <Item>
           {" "}
-          <p style={{ background: "none" }} className="pjct8">
+          <p style={{ backgroundColor: "#224e6f" }} className="pjct8">
             <a
               href="https://food-web-cart.vercel.app"
               rel="noopener noreferrer"
@@ -226,7 +226,7 @@ const Projects = () => {
         </Item>
 
         <Item>
-          <p style={{ background: "none" }} className="pjct9">
+          <p style={{ backgroundColor: "#224e6f" }} className="pjct9">
             <a
               href="https://music-player-9qwyi7taq-willson1661s-projects.vercel.app/"
               rel="noopener noreferrer"
