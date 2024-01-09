@@ -1,4 +1,4 @@
-
+import { Analytics } from '@vercel/analytics/react';
 import './App.css';
 import React from "react";
 import Header from "./Components/Header/Header"
@@ -26,6 +26,7 @@ const App=()=> {
    <Projects/>
    <Awards/>
    <Footer/>
+   <Analytics />
     </div>
   );
 }
